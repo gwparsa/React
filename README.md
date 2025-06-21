@@ -1,4 +1,4 @@
-Baraye sakht va start project react ba vite:<br/><br/>
+<bold>Baraye sakht va start project react ba vite:<bold/><br/><br/>
 1- dar directory project cms ya dar vs code terminal ra baz konid.<br/>
 2- command npm create vite@latest ra run konid.<br/>
 3. esm project ra entekhab konid, sepas zaban va framework ra entekhab konid.<br/>
