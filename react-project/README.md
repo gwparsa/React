@@ -1,12 +1,14 @@
-# React + Vite
+## React Learning
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Sakhtar koli Project(file va directory ha): <br/>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+`package.json & package-lock.json`: etelaat koli project mesl package ha va library haye morede niaz va version o description ro unja peyda mikonim.<br/>
+`vite.config.js`: tanzimat vite.<br/>
+`eslint.config.js`: eslint yek package komaki baraye hazf error ha va komak kardan be debug rahat tar hast.<br/>
+`index.html`: file html website ke code ha baad az load site dar an gharar migirand.<br/>
+`node_modules`: directory ke data va file haye nasbi tamami package ha va library hayi ke dar package.json nam bordim ro dare.<br/>
+`public`: directory ke file hayi mesl aks, logo va chiz hayi ke dar hame jaye project estefade mishan ro dare.<br/>
+`src`: directory ke hame code haye asli website ro dare.<br/>
+`src -> assets`: file haye dame dasti baraye estefade dar code ha.<br/>
+`src -> App.css & index.css`: file haye css project.<br/>
+`src -> app.jsx & main.jsx`: file haye asli react(file `main.jsx` dar nahayat file asli ast ke dar website render mishavad).<br/>
