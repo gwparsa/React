@@ -16,4 +16,11 @@
 <br/>
 
 ### JSX Chist? <br/>
- 
+
+mokhafaf javascript xml hast ke dar vaghe bekhater tarkib html va js dar yek file ast. ma ba jsx code haye html ra dar file haye js minevisim.<br/>
+
+<br/>
+
+### Component Chist? <br/>
+
+ss<br/>
