@@ -23,4 +23,9 @@ mokhafaf javascript xml hast ke dar vaghe bekhater tarkib html va js dar yek fil
 
 ### Component Chist? <br/>
 
-ss<br/>
+dar vaghe component ha ghete hayi az code ha hastan ke ui site ro tashkil midan. masalan header yek site bakhshi az un website hast va yeki az component ha hast. baazi az component ha chon dar jahaye mokhtalef website estefade mishan, yeksan sakhte shode va faghad mohtavaye un avaz mishe, masalan yek search bar dar website momkene dar chand ja estefade beshe pas behtare yek bar un ro code bezanim va un component ro dar chand ja estefade konim. component birooni parent va dakheli child hastand. be ebarati digar comonent ha usable code block hastand yani ghete code hayi ke mitoonan bar ha estefade beshan. <br/>
+sakhtar component yek fnction ast ke gheir az code haye js dar un html ham gharar dade mishe. <br/>
+baraye sakht component 2 kar lazem ast:<br/>
+1. sakht function ke bayad baraye component ha ba harf bozorg shoru shavad vagrna kar nemikonad. bayad code haye ma behamrah html dakhel yek `return("code ha inja bashand"):` ghrar begire ta kar kone vagrna faghad line aval return mishe.<br/>
+2. an ra export konim ke be soorat default az `export default "Name"` estefade mikonim.<br/>
+3. html khod ra dakhel component benevisim.<br/>
