@@ -29,3 +29,11 @@ baraye sakht component 2 kar lazem ast:<br/>
 1. sakht function ke bayad baraye component ha ba harf bozorg shoru shavad vagrna kar nemikonad. bayad code haye ma behamrah html dakhel yek `return("code ha inja bashand"):` ghrar begire ta kar kone vagrna faghad line aval return mishe.<br/>
 2. an ra export konim ke be soorat default az `export default "Name"` estefade mikonim.<br/>
 3. html khod ra dakhel component benevisim.<br/>
+
+<br/>
+
+### Ravesh sakht component? <br/>
+
+1. yek file jsx baraye an misazim. masalan inja file `Test.jsx` dar directory src khahad bood.
+2. function component ra minevisim va dar akhar an ra export mikonim.
+3. dar file haye digar masalan `App.jsx` import va az component ha estefade mikonim. be soorat `<Test/>` neveshte mishe.
