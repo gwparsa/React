@@ -34,6 +34,50 @@ baraye sakht component 2 kar lazem ast:<br/>
 
 ### Ravesh sakht component? <br/>
 
-1. yek file jsx baraye an misazim. masalan inja file `Test.jsx` dar directory src khahad bood.
-2. function component ra minevisim va dar akhar an ra export mikonim.
-3. dar file haye digar masalan `App.jsx` import va az component ha estefade mikonim. be soorat `<Test/>` neveshte mishe.
+1. yek file jsx baraye an misazim. masalan inja file `Test.jsx` dar directory src khahad bood.<br/>
+2. function component ra minevisim va dar akhar an ra export mikonim.<br/>
+3. dar file haye digar masalan `App.jsx` import va az component ha estefade mikonim. be soorat `<Test/>` neveshte mishe.<br/>
+
+<br/>
+
+### Anjam code haye js dar JSX <br/>
+
+agar bekhayim code haye js ra dar tag haye component ha estefade konim bayad az {} dar bein anha estefade konim. masalan `<p>{Math.round(Math.random() * 100)}</p>`<br/>
+
+<br/>
+
+### Adjasent Tags <br/>
+
+moghe render kardan component hame tag ha bayad yek tag parent dashte bashand ta error nadahand.<br/>
+vaghti ma 2 ya chand tag div kenar ham dashte bashim error mikhorim. mesl:<br/>
+```
+  return (
+    <div>
+      <h1>Parsa Sorsori</h1>
+      <Test/>
+    </div>
+    <div>
+      <h1>second div</h1>
+      <Test/>
+    </div>
+  )
+```
+<br/>
+baraye dorost kardan in mozu hame tag haro dakhel yek div dige mizarim ke moghe return yek tag parent dashte bashim:<br/>
+```
+  return (
+    <div>
+        <div>
+            <h1>Parsa Sorsori</h1>
+            <Test/>
+        </div>
+        <div>
+            <h1>second div</h1>
+            <Test/>
+        </div>
+    </div>
+  )
+```
+
+<br/>
+
