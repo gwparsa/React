@@ -82,3 +82,27 @@ baraye dorost kardan in mozu hame tag haro dakhel yek div dige mizarim ke moghe 
 
 <br/>
 
+### React Fragment <br/>
+
+agar yek tag div baraye parent ezafe konim dar style dehi be moshkel mikhorim. pas dar file component react ro import mikonim(`import React from "react";`), va bejaye tag div parent, `<React.Fragment></React.Fragment>` ra estefade mikonim.<br/>
+Barname in shekli mishe:<br/>
+```
+import React from "react";
+
+function Test() {
+    return(
+        <React.Fragment>
+            <p>Salam in yek component test ast!</p>
+            <p>{Math.round(Math.random() * 100)}</p> 
+        </React.Fragment>
+    );
+}
+
+export default Test
+```
+
+<br/>
+
+### Reusable Components <br/>
+
+vaghti ma yek mohtavaye tekrari dar wbsite darim nabayad baraye hame an ha code haye tekrari benevisim. masalan website ii ke card haye ziadi dare bayad yek component card barash sakhte beshe va faghad ba bahs props mohtavaye dakhel un ha taghir kone.<br/>

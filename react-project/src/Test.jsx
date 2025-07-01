@@ -1,9 +1,11 @@
+import React from "react";
+
 function Test() {
     return(
-        <div>
+        <React.Fragment>
             <p>Salam in yek component test ast!</p>
             <p>{Math.round(Math.random() * 100)}</p> 
-        </div>
+        </React.Fragment>
     );
 }
 
