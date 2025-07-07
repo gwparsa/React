@@ -40,13 +40,13 @@ baraye sakht component 2 kar lazem ast:<br/>
 
 <br/>
 
-### Anjam code haye js dar JSX <br/>
+### Anjam code haye js dar JSX: <br/>
 
 agar bekhayim code haye js ra dar tag haye component ha estefade konim bayad az {} dar bein anha estefade konim. masalan `<p>{Math.round(Math.random() * 100)}</p>`<br/>
 
 <br/>
 
-### Adjasent Tags <br/>
+### Adjasent Tags: <br/>
 
 moghe render kardan component hame tag ha bayad yek tag parent dashte bashand ta error nadahand.<br/>
 vaghti ma 2 ya chand tag div kenar ham dashte bashim error mikhorim. mesl:<br/>
@@ -82,7 +82,7 @@ baraye dorost kardan in mozu hame tag haro dakhel yek div dige mizarim ke moghe 
 
 <br/>
 
-### React Fragment <br/>
+### React Fragment: <br/>
 
 agar yek tag div baraye parent ezafe konim dar style dehi be moshkel mikhorim. pas dar file component react ro import mikonim(`import React from "react";`), va bejaye tag div parent, `<React.Fragment></React.Fragment>` ra estefade mikonim.<br/>
 Barname in shekli mishe:<br/>
@@ -103,6 +103,18 @@ export default Test
 
 <br/>
 
-### Reusable Components <br/>
+### Reusable Components: <br/>
 
 vaghti ma yek mohtavaye tekrari dar wbsite darim nabayad baraye hame an ha code haye tekrari benevisim. masalan website ii ke card haye ziadi dare bayad yek component card barash sakhte beshe va faghad ba bahs props mohtavaye dakhel un ha taghir kone.<br/>
+
+<br/>
+
+### Conditional Rendering: <br/>
+
+mikhaiimm tebghe sharayet mokhtalef component haye moljhtalef ro rneder konim tu site. masalan age karbar login nabood bayad headeri namayesh dade beshe ke dokme register ya login dashte bashe. az file `Header.jsx` estefade konid.<br/>
+
+<br/>
+
+### List Rendering: <br/>
+
+vaghti yek array az data darim ke mikhaiim unha ro namayesh bedim bayad az list rendering estefade konim. behtare baraye inke vaghti yek item taghiri mikone, baraye inke nakhaiim kole list ro dobare render konim behtare az index ya key baraye har kodoomeshun estefade konim. file `CourseList.jsx` check shavad.<br/> 
