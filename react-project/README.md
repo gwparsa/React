@@ -118,3 +118,7 @@ mikhaiimm tebghe sharayet mokhtalef component haye moljhtalef ro rneder konim tu
 ### List Rendering: <br/>
 
 vaghti yek array az data darim ke mikhaiim unha ro namayesh bedim bayad az list rendering estefade konim. behtare baraye inke vaghti yek item taghiri mikone, baraye inke nakhaiim kole list ro dobare render konim behtare az index ya key baraye har kodoomeshun estefade konim. file `CourseList.jsx` check shavad.<br/> 
+
+<br/>
+
+### Props: <br/>
