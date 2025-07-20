@@ -26,6 +26,7 @@ mokhafaf javascript xml hast ke dar vaghe bekhater tarkib html va js dar yek fil
 dar vaghe component ha ghete hayi az code ha hastan ke ui site ro tashkil midan. masalan header yek site bakhshi az un website hast va yeki az component ha hast. baazi az component ha chon dar jahaye mokhtalef website estefade mishan, yeksan sakhte shode va faghad mohtavaye un avaz mishe, masalan yek search bar dar website momkene dar chand ja estefade beshe pas behtare yek bar un ro code bezanim va un component ro dar chand ja estefade konim. component birooni parent va dakheli child hastand. be ebarati digar comonent ha usable code block hastand yani ghete code hayi ke mitoonan bar ha estefade beshan. <br/>
 sakhtar component yek fnction ast ke gheir az code haye js dar un html ham gharar dade mishe. <br/>
 baraye sakht component 2 kar lazem ast:<br/>
+
 1. sakht function ke bayad baraye component ha ba harf bozorg shoru shavad vagrna kar nemikonad. bayad code haye ma behamrah html dakhel yek `return("code ha inja bashand"):` ghrar begire ta kar kone vagrna faghad line aval return mishe.<br/>
 2. an ra export konim ke be soorat default az `export default "Name"` estefade mikonim.<br/>
 3. html khod ra dakhel component benevisim.<br/>
@@ -50,6 +51,7 @@ agar bekhayim code haye js ra dar tag haye component ha estefade konim bayad az 
 
 moghe render kardan component hame tag ha bayad yek tag parent dashte bashand ta error nadahand.<br/>
 vaghti ma 2 ya chand tag div kenar ham dashte bashim error mikhorim. mesl:<br/>
+
 ```
   return (
     <div>
@@ -62,6 +64,7 @@ vaghti ma 2 ya chand tag div kenar ham dashte bashim error mikhorim. mesl:<br/>
     </div>
   )
 ```
+
 <br/>
 baraye dorost kardan in mozu hame tag haro dakhel yek div dige mizarim ke moghe return yek tag parent dashte bashim:<br/>
 
@@ -86,6 +89,7 @@ baraye dorost kardan in mozu hame tag haro dakhel yek div dige mizarim ke moghe 
 
 agar yek tag div baraye parent ezafe konim dar style dehi be moshkel mikhorim. pas dar file component react ro import mikonim(`import React from "react";`), va bejaye tag div parent, `<React.Fragment></React.Fragment>` ra estefade mikonim.<br/>
 Barname in shekli mishe:<br/>
+
 ```
 import React from "react";
 
@@ -93,7 +97,7 @@ function Test() {
     return(
         <React.Fragment>
             <p>Salam in yek component test ast!</p>
-            <p>{Math.round(Math.random() * 100)}</p> 
+            <p>{Math.round(Math.random() * 100)}</p>
         </React.Fragment>
     );
 }
@@ -117,8 +121,38 @@ mikhaiimm tebghe sharayet mokhtalef component haye moljhtalef ro rneder konim tu
 
 ### List Rendering: <br/>
 
-vaghti yek array az data darim ke mikhaiim unha ro namayesh bedim bayad az list rendering estefade konim. behtare baraye inke vaghti yek item taghiri mikone, baraye inke nakhaiim kole list ro dobare render konim behtare az index ya key baraye har kodoomeshun estefade konim. file `CourseList.jsx` check shavad.<br/> 
+vaghti yek array az data darim ke mikhaiim unha ro namayesh bedim bayad az list rendering estefade konim. behtare baraye inke vaghti yek item taghiri mikone, baraye inke nakhaiim kole list ro dobare render konim behtare az index ya key baraye har kodoomeshun estefade konim. file `CourseList.jsx` check shavad.<br/>
 
 <br/>
 
 ### Props: <br/>
+
+baraye enteghal data az yek component be componenet dige estefade mishe. dar file `App.jsx` yek data khas ra dar joloye tag componentemun(`<PropsUsage />`) neveshtim va az an dar file `PropsUsage.jsx` estefade mikonim. Nokte: vaght dar file asli App.jsx be component data midim bayad dar file an component, dar function asli an, kalame `props` ro be onvan parameter be an function bedim. pas inshekli mishe:<br/>
+
+```
+function PropsUsage(props) {
+  return (
+    <div>
+        <h1>{props.title}</h1>
+        <p>the number of componenets: {props.numOfComps}</p>
+    </div>
+  )
+}
+```
+
+<br/>
+ama baraye sade tar kardan va khana tar kardan barname biaiim va dar bakhsh parameter ha bejaye kalameh props, maghadir haii ke mikhaiim ro azash begirim ya un ro destructure konim:
+<br/>
+```
+function PropsUsage({title, numOfComps}) {
+  return (
+    <div>
+        <h1>{title}</h1>
+        <p>the number of componenets: {numOfComps}</p>
+    </div>
+  )
+}
+```
+
+<br/>
+Nokte2: enteghal data be az paret be child enteghal dade mishe va az an child mitavaned be child haye paiin tar enteghal dade beshe vali baraks nemitunim data be oarent ha ersal konim.

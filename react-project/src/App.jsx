@@ -1,6 +1,7 @@
 import Test from "./Test.jsx";
 import Header from "./Header.jsx";
 import CourseList from "./CourseList.jsx";
+import PropsUsage from "./PropsUsage.jsx";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h1>Parsa Sorsori</h1>
       <Test />
       <CourseList />
+      <PropsUsage title="This is a learning project!" numOfComps={20} />
     </div>
   );
 }
