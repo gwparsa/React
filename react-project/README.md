@@ -166,3 +166,14 @@ khob baraye ineke dar component ha event haro handle konim mitoonid file `Events
 <br/>
 
 ### State: <br/>
+
+mesl variables hast va data haye maro dar component hamun negah mide. ba in tafavot ke mitune ui maro ham control kone va component ro re-render kone(vaghti meghdar state ma taghir kone kol component re-rnder mishe).<br/>
+useState hook: baraye estefade az state bayad an ra taarif konim: `const [counter, setCounter] = useState(1);`. dar vaghe state be ma yek array ba 2 meghdar mide ke avali data ma hast ke dar () useState be an meghdar dadim va dovomi yek function baraye update kardan an data dar tool component hast. pas ma inja har 2 meghdar ro az array destructure kardim, hala az counter mitunim dar component estefade konim va az setcounter baraye avaz kardan meghdar counter estefade konim, masalan: `setCounter(counter + 1)`. Nokte: be hich vajh mesl js meghdar dakhel state ro avaz nemikonim: `counter = counter + 1`. Nokte2: state ma bayad dar balaye mohtavaye component neveshte beshe.
+
+<br/>
+
+behtare bekhater inke useState ma async hast va ma mamulan be meghdar ghabli statemun niaz darim, bayad az callback function baraye meghdar dehi jadid estefade konim: `setCounter(counter => counter + 1)`.
+
+<br/>
+
+### Forms Handling: <br/>
