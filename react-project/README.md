@@ -156,3 +156,13 @@ function PropsUsage({title, numOfComps}) {
 
 <br/>
 Nokte2: enteghal data be az paret be child enteghal dade mishe va az an child mitavaned be child haye paiin tar enteghal dade beshe vali baraks nemitunim data be oarent ha ersal konim.
+
+<br/>
+
+### Event Handling: <br/>
+
+khob baraye ineke dar component ha event haro handle konim mitoonid file `Events.jsx` ro check konid. yek button ya element ke event be an dade mishe va balatar az an event ma dar yek function neveshte mishe.
+
+<br/>
+
+### State: <br/>

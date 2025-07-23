@@ -2,6 +2,7 @@ import Test from "./Test.jsx";
 import Header from "./Header.jsx";
 import CourseList from "./CourseList.jsx";
 import PropsUsage from "./PropsUsage.jsx";
+import Events from "./Events.jsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Test />
       <CourseList />
       <PropsUsage title="This is a learning project!" numOfComps={20} />
+      <Events />
     </div>
   );
 }
