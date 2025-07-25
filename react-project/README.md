@@ -177,3 +177,5 @@ behtare bekhater inke useState ma async hast va ma mamulan be meghdar ghabli sta
 <br/>
 
 ### Forms Handling: <br/>
+
+tooye form ha yekseri event hayi hast ke bayad dar component ha taarif beshe va taghirat dar input haro handle kone. baraye inkar dar tag haye input az onChange estefade mikonim va be onvan meghdar behesh functioni ro midim ke in taghirat ro handle mikone. ma dar file `Form.jsx` yek input baraye password va yek button login darim. dar inputemun yek passwordHandler gharar dare ke gharare value uninput ro dar state ma zakhire kone.
