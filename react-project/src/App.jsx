@@ -4,10 +4,12 @@ import CourseList from "./CourseList.jsx";
 import PropsUsage from "./PropsUsage.jsx";
 import Events from "./Events.jsx";
 import Form from "./Form.jsx";
+import AnotherCourse from "./AnotherCourse.jsx";
 
 function App() {
   return (
     <div>
+      <AnotherCourse />
       <Header />
       <Form />
       <h1>Parsa Sorsori</h1>
