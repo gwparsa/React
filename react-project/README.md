@@ -179,3 +179,15 @@ behtare bekhater inke useState ma async hast va ma mamulan be meghdar ghabli sta
 ### Forms Handling: <br/>
 
 tooye form ha yekseri event hayi hast ke bayad dar component ha taarif beshe va taghirat dar input haro handle kone. baraye inkar dar tag haye input az onChange estefade mikonim va be onvan meghdar behesh functioni ro midim ke in taghirat ro handle mikone. ma dar file `Form.jsx` yek input baraye password va yek button login darim. dar inputemun yek passwordHandler gharar dare ke gharare value uninput ro dar state ma zakhire kone.
+
+<br/>
+
+### Styling: <br/>
+
+mitunim be chand ravesh style bedim: 1. baraye har file component yek file css besazim va un ro dar component import konim ke ravesh jaebi nist. omkene be component haye dakhel componentemun ham emal beshe. 2. az inline css estefade konim ke faghad baraye style haye koochik monasebe. 3. css module haman css file hast vali bayad besoorat `Test.module.css` neveshte she. mesl css file be component import mishe ama be soorat: `import styles from "./Test.module.css":`. har vaght bekhaiim be tag ha ham classi bedim ke tooye file css neveshtim bayad be soorat `className={styles.container}`. file `AnotherCourse.jsx` va `AnotherCourse.module.css` check shavad.
+
+<br/>
+
+bazi az vaght ha ma niaz darim ke be hame element ha yek style dade shavad(mesl zamani ke margin va padding haye hame element haro dar css reset mikardim). baraye in kar yek css file be esm `global.css` va be file `main.jsx` importesh mikonim.
+
+<br/>
